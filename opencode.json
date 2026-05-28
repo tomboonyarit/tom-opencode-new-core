@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "command": {
+    "agents": {
+      "template": "แสดงรายชื่อเจ้าหน้าที่ในทีมปฏิบัติการทั้ง 8 ออกมาในรูปแบบตาราง Markdown ทันที:\n\n| เจ้าหน้าที่ | บทบาทหน้าที่ | เครื่องมือ/ผลลัพธ์ |\n| :--- | :--- | :--- |\n| **[Planna]** | วางแผนและแจกจ่ายงาน | `PLAN.md` |\n| **[Codetta]** | พัฒนาระบบหลังบ้าน (Backend & API) | API, Database Models |\n| **[Vivianna]** | พัฒนาหน้าบ้านและ UI/UX | UI Components |\n| **[Review]** | ตรวจคุณภาพและรีวิวโค้ด | Code Diff, Review Logs |\n| **[Tessa]** | รันเทสเพื่อล่าบั๊ก | Automated Tests |\n| **[Shielda]** | ดูแลความปลอดภัยและนำระบบขึ้นใช้จริง (Deploy) | Deployment Tools, Configs |\n| **[Sherlocky]** | แกะโค้ดและทำเอกสารคู่มือระบบ | README.md, System Docs |\n| **[Researchy]** | วิจัยข้อมูล บันทึกความรู้ และให้มุมมองที่แตกต่าง | `web-browser`, คลังความรู้ `.opencode/knowledge/` |\n\nปิดท้ายด้วยข้อความ: ทีม Octa-Core Elite ทั้ง 8 พร้อมลุย! ส่งโจทย์ของคุณมาเพื่อให้ Researchy และ Planna เริ่มต้นการทำงานได้เลย"
+    },
+    "plan": {
+      "template": "เรียก [Planna] มาอ่านโจทย์ล่าสุดที่ฉันให้ และสร้างพิมพ์เขียวลงไฟล์ `PLAN.md` ทันที โดยให้ [Researchy] ช่วยหาข้อมูลสนับสนุนถ้าจำเป็น"
+    },
+    "deploy": {
+      "template": "เรียก [Shielda] ให้มาตรวจสอบความปลอดภัยขั้นสุดท้าย และรันคำสั่งเพื่อนำระบบขึ้น Production (เช่น `clasp push`)"
+    }
+  }
+}
