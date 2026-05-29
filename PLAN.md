@@ -15,15 +15,18 @@
 
 ## 🎯 เป้าหมายโปรเจกต์
 
-*(รอการกำหนดจากผู้ใช้)*
+POS ระบบร้านค้าปลีก-ค่าส่ง ครอบคลุม 8 ระบบหลัก:
+- ระบบสมาชิก / ระบบพนักงาน / ระบบสินค้า
+- ระบบการขาย / ระบบลูกหนี้ / ระบบสต๊อก
+- ระบบรายงาน / ระบบพิมพ์บิล
 
 ---
 
 ## 📦 Deliverables
 
 ### Backend
-- [ ] API Server
-- [ ] Database Schema
+- [x] Database Schema (ออกแบบ + SQL Script)
+- [ ] API Server (Go + Gin)
 - [ ] Authentication System
 - [ ] Business Logic
 
